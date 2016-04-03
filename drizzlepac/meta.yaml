@@ -52,7 +52,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/drizzlepac
+    git_url: https://github.com/jhunkeler/drizzlepac
+    git_branch: setuptools-conversion
 test:
     imports:
     - drizzlepac

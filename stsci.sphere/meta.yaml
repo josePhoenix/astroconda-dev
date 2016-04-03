@@ -30,6 +30,7 @@ requirements:
 source:
     git_tag: {{ version }}
     git_url: ssh://git@bitbucket.org/stsci_ssb/stsci.sphere
+    git_branch: setuptools-conversion
 test:
     imports:
     - stsci.sphere

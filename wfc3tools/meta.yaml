@@ -31,7 +31,8 @@ requirements:
     - scipy
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/wfc3tools
+    git_url: https://github.com/jhunkeler/wfc3tools
+    git_branch: setuptools-conversion
 test:
     imports:
     - wfc3tools

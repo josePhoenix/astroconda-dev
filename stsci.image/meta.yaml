@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/stsci.image
+    home: https://github.com/jhunkeler/stsci.image
     license: GPL
     summary: stsci.image
 build:
@@ -30,7 +30,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/stsci.image.git
+    git_url: https://github.com/jhunkeler/stsci.image.git
+    git_branch: setuptools-conversion
 test:
     imports:
     - stsci.image

@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/acstools
+    home: https://github.com/jhunkeler/acstools
     license: BSD
     summary: acstools
 build:
@@ -36,7 +36,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/acstools
+    git_url: https://github.com/jhunkeler/acstools
+    git_branch: setuptools-conversion
 test:
     commands:
     - acs_destripe --help

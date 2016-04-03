@@ -28,7 +28,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/stsci.tools
+    git_url: https://github.com/jhunkeler/stsci.tools
+    git_branch: setuptools-conversion
 test:
     imports:
     - stsci.tools

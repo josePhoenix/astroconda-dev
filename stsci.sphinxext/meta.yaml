@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/stsci.sphinxext
+    home: https://github.com/jhunkeler/stsci.sphinxext
     license: GPL
     summary: stsci.sphinxext
 build:
@@ -24,7 +24,8 @@ requirements:
     - numpydoc
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/stsci.sphinxext
+    git_url: https://github.com/jhunkeler/stsci.sphinxext
+    git_branch: setuptools-conversion
 test:
     imports:
     - stsci.sphinxext

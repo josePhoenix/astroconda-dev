@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/nictools
+    home: https://github.com/jhunkeler/nictools
     summary: nictools
 build:
     number: {{ number }}
@@ -28,7 +28,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/nictools
+    git_url: https://github.com/jhunkeler/nictools
+    git_branch: setuptools-conversion
 test:
     imports:
     - nictools

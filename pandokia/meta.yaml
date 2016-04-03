@@ -27,7 +27,8 @@ requirements:
     - pytest
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/pandokia
+    git_url: https://github.com/jhunkeler/pandokia
+    git_branch: setuptools-conversion
 test:
     commands:
     - pdk --help

@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/pysynphot
+    home: https://github.com/jhunkeler/pysynphot
     license: BSD
     summary: pysynphot
 build:
@@ -32,7 +32,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/pysynphot
+    git_url: https://github.com/jhunkeler/pysynphot
+    git_branch: setuptools-conversion
 test:
     imports:
     - pysynphot

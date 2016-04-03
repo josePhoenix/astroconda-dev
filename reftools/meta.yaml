@@ -38,7 +38,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/reftools
+    git_url: https://github.com/jhunkeler/reftools
+    git_branch: setuptools-conversion
 test:
     imports:
     - reftools

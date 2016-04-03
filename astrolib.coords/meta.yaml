@@ -5,7 +5,7 @@
 {% set number = '0' %}
 
 about:
-    home: https://github.com/spacetelescope/astrolib.coords.git
+    home: https://github.com/jhunkeler/astrolib.coords.git
     license: BSD
     summary: astrolib.coords
 build:
@@ -23,7 +23,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/astrolib.coords.git/
+    git_url: https://github.com/jhunkeler/astrolib.coords.git/
+    git_branch: setuptools-conversion
 test:
     imports:
     - astrolib.coords

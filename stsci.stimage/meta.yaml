@@ -24,7 +24,8 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_url: https://github.com/spacetelescope/stsci.stimage
+    git_url: https://github.com/jhunkeler/stsci.stimage
+    git_branch: setuptools-conversion
 test:
     imports:
     - stsci.stimage
