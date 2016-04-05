@@ -2,6 +2,8 @@
 {% set version = environ.get("GIT_DESCRIBE_TAG", "0.0.0")
     +".dev"
     +environ.get("GIT_DESCRIBE_NUMBER", "0") %}
+# Override due to lack of tags
+{% set version = '0.0.1' %}
 {% set number = '0' %}
 
 about:

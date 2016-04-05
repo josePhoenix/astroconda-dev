@@ -16,12 +16,20 @@ package:
     version: {{ version }}
 requirements:
     build:
+    - astropy
+    - matplotlib
+    - nose
     - numpydoc
     - relic >=1.0.3
     - setuptools
+    - numpy x.x
     - python x.x
     run:
+    - astropy
+    - matplotlib
+    - nose
     - numpydoc
+    - numpy x.x
     - python x.x
 source:
     git_url: https://github.com/jhunkeler/stsci.sphinxext

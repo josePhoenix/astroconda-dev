@@ -14,6 +14,24 @@ package:
     name: {{ name }}
     version: {{ version }}
 requirements:
+    build:
+    - stsci-hst
+    - stsci-data-analysis
+    - astropy >=1.1
+    - cfitsio
+    - ds9
+    - fftw
+    - htc_utils
+    - imexam
+    - photutils
+    - poppy
+    - purge_path
+    - pyds9
+    - pyfftw
+    - webbpsf
+    - webbpsf-data
+    - numpy x.x
+    - python x.x
     run:
     - stsci-hst
     - stsci-data-analysis

@@ -17,9 +17,11 @@ requirements:
     build:
     - relic >=1.0.3
     - setuptools
+    - nose
     - numpy x.x
     - python x.x
     run:
+    - nose
     - numpy x.x
     - python x.x
 source:

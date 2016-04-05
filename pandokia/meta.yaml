@@ -28,7 +28,7 @@ requirements:
     - python x.x
 source:
     git_url: https://github.com/jhunkeler/pandokia
-    git_branch: setuptools-conversion
+    git_branch: python-3-port
 test:
     commands:
     - pdk --help

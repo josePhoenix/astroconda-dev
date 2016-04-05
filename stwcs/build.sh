@@ -19,10 +19,4 @@ export -f set_py3k
 
 set_py3k
 
-
-
-sed -i -e "s|use_2to3=True|use_2to3=False|" setup.py
-if [ $PY3K -ne 0 ] ; then
-fi
-
 python setup.py install || exit 1

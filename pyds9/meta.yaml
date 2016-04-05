@@ -1,8 +1,9 @@
 {% set name = 'pyds9' %}
-{% set version = environ.get("GIT_DESCRIBE_TAG", "0.0.0")
+{% set version = environ.get("GIT_DESCRIBE_TAG", "0.0.0").replace("v", "")
     +".dev"
     +environ.get("GIT_DESCRIBE_NUMBER", "0") %}
 {% set number = '0' %}
+{% set tag = GIT_DESCRIBE_TAG %}
 
 about:
     home: https://github.com/ericmandel/pyds9
@@ -28,7 +29,7 @@ requirements:
     - numpy x.x
     - python x.x
 source:
-    git_tag: {{ version }}
+    git_tag: {{ tag }}
     git_url: https://github.com/ericmandel/pyds9
 test:
     imports:

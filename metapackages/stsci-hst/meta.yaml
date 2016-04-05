@@ -14,6 +14,40 @@ package:
     name: {{ name }}
     version: {{ version }}
 requirements:
+    build:
+    - relic
+    - purge_path
+    - acstools
+    - astrolib.coords
+    - astropy >=1.1
+    - calcos
+    - costools
+    - crds
+    - drizzlepac
+    - fitsblender
+    - hstcal
+    - nictools
+    - pyregion
+    - pysynphot
+    - pywcs
+    - reftools
+    - stistools
+    - stsci.convolve
+    - stsci.image
+    - stsci.imagemanip
+    - stsci.imagestats
+    - stsci.ndimage
+    - stsci.numdisplay
+    - stsci.sphinxext
+    - stsci.stimage
+    - stsci.skypac
+    - stsci.sphere
+    - stsci.tools
+    - stwcs
+    - wfpc2tools
+    - wfc3tools
+    - numpy x.x
+    - python x.x
     run:
     - relic
     - purge_path

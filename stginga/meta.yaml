@@ -1,7 +1,10 @@
+#Package currently does not have any tags. We'll fake it for now
 {% set name = 'stginga' %}
 {% set version = environ.get("GIT_DESCRIBE_TAG", "0.0.0")
     +".dev"
     +environ.get("GIT_DESCRIBE_NUMBER", "0") %}
+# Override
+{% set version = '0.1' %}
 {% set number = '0' %}
 
 about:

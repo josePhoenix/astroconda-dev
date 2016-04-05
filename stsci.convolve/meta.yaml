@@ -17,9 +17,13 @@ package:
 requirements:
     build:
     - relic >=1.0.3
+    - nose
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
     run:
+    - nose
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
 source:

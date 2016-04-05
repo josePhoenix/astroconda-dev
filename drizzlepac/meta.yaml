@@ -27,8 +27,10 @@ requirements:
     - stsci.ndimage
     - stsci.skypac
     - stsci.sphere
+    - stsci.sphinxext
     - stsci.stimage
     - stwcs
+    - pandokia
     - pyregion
     - setuptools
     - numpy x.x
@@ -45,8 +47,10 @@ requirements:
     - stsci.ndimage
     - stsci.skypac
     - stsci.sphere
+    - stsci.sphinxext
     - stsci.stimage
     - stwcs
+    - pandokia
     - pyregion
     - setuptools
     - numpy x.x

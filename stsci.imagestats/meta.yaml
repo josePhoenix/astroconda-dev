@@ -10,7 +10,7 @@ about:
     summary: stsci.imagestats
 build:
     number: {{ number }}
-    preserve_egg_dir: 'yes'
+    #preserve_egg_dir: 'yes'
 package:
     name: {{ name }}
     version: {{ version }}
@@ -18,9 +18,11 @@ requirements:
     build:
     - relic >=1.0.3
     - setuptools
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
     run:
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
 source:

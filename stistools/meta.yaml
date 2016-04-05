@@ -18,6 +18,7 @@ requirements:
     - astropy >=1.1
     - relic >=1.0.3
     - scipy
+    - stsci.sphinxext
     - stsci.tools
     - setuptools
     - numpy x.x
@@ -25,6 +26,7 @@ requirements:
     run:
     - astropy >=1.1
     - scipy
+    - stsci.sphinxext
     - stsci.tools
     - numpy x.x
     - python x.x

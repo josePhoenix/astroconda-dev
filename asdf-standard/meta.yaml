@@ -3,6 +3,7 @@
     +".dev"
     +environ.get("GIT_DESCRIBE_NUMBER", "0") %}
 {% set number = '0' %}
+{% set tag = GIT_DESCRIBE_TAG %}
 
 about:
     home: https://github.com/spacetelescope/asdf-standard

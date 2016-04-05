@@ -17,12 +17,14 @@ requirements:
     build:
     - astropy >=1.1
     - relic >=1.0.3
+    - stsci.sphinxext
     - stsci.tools
     - setuptools
     - numpy x.x
     - python x.x
     run:
     - astropy >=1.1
+    - stsci.sphinxext
     - stsci.tools
     - numpy x.x
     - python x.x

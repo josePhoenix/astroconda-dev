@@ -17,10 +17,12 @@ package:
 requirements:
     build:
     - relic >=1.0.3
+    - stsci.sphinxext
     - setuptools
     - numpy x.x
     - python x.x
     run:
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
 source:

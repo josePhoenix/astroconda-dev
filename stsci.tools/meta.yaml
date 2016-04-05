@@ -17,6 +17,7 @@ package:
 requirements:
     build:
     - astropy >=1.1
+    - nose
     - pytools
     - relic >=1.0.3
     - setuptools
@@ -24,6 +25,7 @@ requirements:
     - python x.x
     run:
     - astropy >=1.1
+    - nose
     - pytools
     - numpy x.x
     - python x.x

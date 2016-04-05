@@ -3,6 +3,7 @@
     +".dev"
     +environ.get("GIT_DESCRIBE_NUMBER", "0") %}
 {% set number = '0' %}
+{% set tag = GIT_DESCRIBE_NUMBER %}
 
 about:
     home: http://bitbucket.org/jhunkeler/purge_path
@@ -20,5 +21,5 @@ requirements:
     run:
     - python x.x
 source:
-    git_tag: {{ version }}
+    git_tag: {{ tag }}
     git_url: https://bitbucket.org/jhunkeler/purge_path

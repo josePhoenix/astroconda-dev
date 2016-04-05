@@ -19,11 +19,13 @@ requirements:
     - matplotlib
     - relic >=1.0.3
     - scipy
+    - stsci.sphinxext
     - stsci.tools
     - setuptools
     - numpy x.x
     - python x.x
     run:
+    - stsci.sphinxext
     - stsci.tools
     - astropy >=1.1
     - matplotlib

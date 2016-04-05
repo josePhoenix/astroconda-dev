@@ -19,16 +19,17 @@ requirements:
     - astropy >=1.1
     - matplotlib
     - relic >=1.0.3
+    - stsci.sphinxext
     - setuptools
     - numpy x.x
     - python x.x
     run:
     - astropy >=1.1
     - matplotlib
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
 source:
-    git_tag: {{ version }}
     git_url: ssh://git@bitbucket.org/stsci_ssb/stsci.sphere
     git_branch: setuptools-conversion
 test:
