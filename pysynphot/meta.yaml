@@ -10,7 +10,7 @@ about:
     summary: pysynphot
 build:
     number: {{ number }}
-    preserve_egg_dir: 'yes'
+    #preserve_egg_dir: 'yes'
 package:
     name: {{ name }}
     version: {{ version }}
@@ -21,6 +21,8 @@ requirements:
     - cython
     - matplotlib
     - relic >=1.0.3
+    - stsci.distutils
+    - stsci.sphinxext
     - setuptools
     - numpy x.x
     - python x.x
@@ -29,11 +31,9 @@ requirements:
     - astropy >=1.1
     - cython
     - matplotlib
+    - stsci.sphinxext
     - numpy x.x
     - python x.x
 source:
     git_url: https://github.com/jhunkeler/pysynphot
-    git_branch: setuptools-conversion
-test:
-    imports:
-    - pysynphot
+    #git_branch: setuptools-conversion
