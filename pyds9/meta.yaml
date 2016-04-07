@@ -32,4 +32,5 @@ source:
     git_url: https://github.com/ericmandel/pyds9
 test:
     imports:
-    - pyds9
+    # Sorry, but the lingering xpans daemon hangs up the build system
+    #- pyds9
