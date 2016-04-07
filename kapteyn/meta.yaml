@@ -1,0 +1,29 @@
+{% set name = 'kapteyn' %}
+{% set version = '2.3' %}
+{% set number = '0' %}
+
+about:
+    home: http://www.astro.rug.nl/software/kapteyn
+    license: BSD
+    summary: Tools for the development of astronomical applications with Python
+build:
+    number: {{ number }}
+package:
+    name: {{ name }}
+    version: {{ version }}
+requirements:
+    build:
+    - setuptools
+    - scipy
+    - numpy x.x
+    - python x.x
+    run:
+    - scipy
+    - numpy x.x
+    - python x.x
+source:
+    fn: {{ name }}-{{ version }}.tar.gz
+    url: http://www.astro.rug.nl/software/kapteyn/{{ name }}-{{ version }}.tar.gz
+test:
+    imports:
+    - kapteyn
