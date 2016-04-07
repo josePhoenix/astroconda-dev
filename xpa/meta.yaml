@@ -15,7 +15,6 @@ package:
     name: {{ name }}
     version: {{ version }}
 source:
-    git_tag: {{ tag }}
     git_url: https://github.com/ericmandel/xpa
 test:
     commands:
